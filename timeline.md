@@ -5,5 +5,6 @@ The timeline of the project is as follows:
 3. Also paper sketching the map which include all the rooms(levels).
 4. Second half of march: Finalize game mechanics, implement actual levels, get play testing done.
    
+![Gantt chart(1)](https://github.com/user-attachments/assets/4fc0c46a-7a52-4634-880d-7d607344fe56)
 
-![Gantt chart](https://github.com/user-attachments/assets/840f5e40-8e43-4f0c-b042-41483bf887fb)
+
