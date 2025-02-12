@@ -4,4 +4,5 @@ The timeline of the project is as follows:
 2. First half of march: Finalize paper prototypes, begin prototyping on actual levels within Unity, figure out final designs, test out game mechanics.
 3. Also paper sketching the map which include all the rooms(levels).
 4. Second half of march: Finalize game mechanics, implement actual levels, get play testing done.
+   
 [Gantt chart.pdf](https://github.com/user-attachments/files/18774977/Gantt.chart.pdf)
