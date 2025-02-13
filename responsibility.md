@@ -3,4 +3,5 @@ Each group member will have the responsibility to create 2 mini games that they 
 Final editing of scripts: Ethan \
 Things to import from Maya 3D: Rivan \
 Game's Title screen background: David \
-Final Presentation: Narration- Ethan& David, Gameplay- Rivan
+Final Presentation: Narration- Ethan& David \
+Gameplay- Rivan
