@@ -6,6 +6,6 @@ The Chamber of Mysteries is a game that follows a character in their journey to 
 
 
 ### Group Members:
-Rivan Aminbhai Gadhiya
-Ethan Goski
+Rivan Aminbhai Gadhiya \
+Ethan Goski \
 David Ayomide Olorunfemi
