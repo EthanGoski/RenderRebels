@@ -1,0 +1,1741 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15973 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+C:/Users/ethan/My project
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+58437
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ethan/My project
+C:/Users/ethan/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [94892]  Target information:
+
+Player connection [94892]  * "[IP] 172.16.1.192 [Port] 0 [Flags] 2 [Guid] 840400821 [EditorId] 840400821 [Version] 1048832 [Id] WindowsEditor(7,BOOK-G8AA279PT7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [94892] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [94892] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 255.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Qualcomm(R) Adreno(TM) X1-85 GPU (ID=0x36334330)
+    Vendor:   Qualcomm
+    VRAM:     7986 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004441 seconds.
+- Loaded All Assemblies, in  2.034 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.385 seconds
+Domain Reload Profiling: 2417ms
+	BeginReloadAssembly (296ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (374ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (57ms)
+	LoadAllAssembliesAndSetupDomain (1290ms)
+		LoadAssemblies (293ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1287ms)
+			TypeCache.Refresh (1284ms)
+				TypeCache.ScanAssembly (1265ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (386ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (344ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (66ms)
+			ProcessInitializeOnLoadAttributes (178ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.904 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.749 seconds
+Domain Reload Profiling: 1650ms
+	BeginReloadAssembly (164ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (30ms)
+	RebuildCommonClasses (40ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (644ms)
+		LoadAssemblies (392ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (345ms)
+			TypeCache.Refresh (288ms)
+				TypeCache.ScanAssembly (159ms)
+			BuildScriptInfoCaches (49ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (750ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (641ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (113ms)
+			ProcessInitializeOnLoadAttributes (480ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3754 unused Assets / (390.9 KB). Loaded Objects now: 4274.
+Memory consumption went from 97.6 MB to 97.2 MB.
+Total: 18.476400 ms (FindLiveObjects: 1.238800 ms CreateObjectMapping: 0.278500 ms MarkObjects: 15.340100 ms  DeleteObjects: 1.617400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1844803.903602 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk09Textures/Desk09Metallic.tga
+  artifactKey: Guid(234fb3a19ef9ce346bf712135ecfd949) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk09Textures/Desk09Metallic.tga using Guid(234fb3a19ef9ce346bf712135ecfd949) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b17d7dcbf48a9cc71bf5fe69f5e46415') in 0.7748819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001538 seconds.
+  path: Assets/DesksCollection-Mavi3D/Models/Desk01.fbx
+  artifactKey: Guid(4ea77433cb609694baf5b9427552c931) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Models/Desk01.fbx using Guid(4ea77433cb609694baf5b9427552c931) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3966de4be9a7926be94ad5a01887955d') in 0.2995531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk02/Drawers/Desk02Metallic.mat
+  artifactKey: Guid(016ad537aeaf81f4999667095a9b3f38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk02/Drawers/Desk02Metallic.mat using Guid(016ad537aeaf81f4999667095a9b3f38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8072e0ab3a8588b481583f34ae8ea70e') in 0.0325637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk03.prefab
+  artifactKey: Guid(9dd50cd7000873d48b9d1b3c5a4c8fc2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In/Desk03.prefab using Guid(9dd50cd7000873d48b9d1b3c5a4c8fc2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7816507e3f7b09d85402adfbdbe71de3') in 0.0505236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 36
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/Built-In
+  artifactKey: Guid(d47ed4cd58b6e634aa33f9d3f571f93a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/Built-In using Guid(d47ed4cd58b6e634aa33f9d3f571f93a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4373b552c4b98d60fd2f21bb0966ebf') in 0.0146532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/Lightmap-2_comp_dir.png
+  artifactKey: Guid(8b6e7bc7755dc1b45a59f3130f9d8102) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/Lightmap-2_comp_dir.png using Guid(8b6e7bc7755dc1b45a59f3130f9d8102) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5ad692dc85b67ac52ef5ab1beb4c6b5') in 0.0951924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk09
+  artifactKey: Guid(9938ea70ae392a749857b5b7ad33341c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk09 using Guid(9938ea70ae392a749857b5b7ad33341c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e9dd5b90b2e743fefe02ea86989297f1') in 0.0164525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk04Mat/Desk04Mat01.mat
+  artifactKey: Guid(a305bc165b803bf4d83ffe5f3c3bafe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk04Mat/Desk04Mat01.mat using Guid(a305bc165b803bf4d83ffe5f3c3bafe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b42a8514c5718513911ba2c61481d076') in 0.0182201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat/Drawer/Drawer01.mat
+  artifactKey: Guid(3fdbeb095c88c4945b69e3045c0ea538) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat/Drawer/Drawer01.mat using Guid(3fdbeb095c88c4945b69e3045c0ea538) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9df88d11bfb6636f62387888892ffac2') in 0.0308387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/SceneMat.mat
+  artifactKey: Guid(077b55867e113b747be3f68b5834ea29) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/SceneMat.mat using Guid(077b55867e113b747be3f68b5834ea29) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f811fea8bfac20e438da27f3633d62de') in 0.0200374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk02Textures/Drawer
+  artifactKey: Guid(70c9ead59c46b974f993585268233682) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk02Textures/Drawer using Guid(70c9ead59c46b974f993585268233682) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5c48235e247962d5ec9c6eb447d5dd17') in 0.0237892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk10Mat
+  artifactKey: Guid(0315e9f4b624744449be40cfcce259f5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk10Mat using Guid(0315e9f4b624744449be40cfcce259f5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e766a9a608fc71dac4842e7e1015568') in 0.0197233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat/Desk
+  artifactKey: Guid(c843dc233ab1aef489dff0c01675f789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat/Desk using Guid(c843dc233ab1aef489dff0c01675f789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5bf26f2dc01735eae78a422d576fbbec') in 0.013804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/URP/Desk02.prefab
+  artifactKey: Guid(300921abaa72dfe47ad3c631bf8c6b28) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/URP/Desk02.prefab using Guid(300921abaa72dfe47ad3c631bf8c6b28) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c6391aeec2b4229f30e2e2890aff57cc') in 0.02982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk08Mat
+  artifactKey: Guid(8ffc982fa07325b4fab5b541ee714bf4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk08Mat using Guid(8ffc982fa07325b4fab5b541ee714bf4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96e3a339cd9f075ddbf0fb8b8ee0932c') in 0.0160256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Albedo.tga
+  artifactKey: Guid(6351aa209fa9ad4429c2ca431248b960) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Albedo.tga using Guid(6351aa209fa9ad4429c2ca431248b960) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '768f217248f700eeacf24cbb1b85dcd0') in 0.0244456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/DesksCollection-Mavi3D/Models/Desk08.fbx
+  artifactKey: Guid(f7bb32abe39d1f8439d359d0378e3d2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Models/Desk08.fbx using Guid(f7bb32abe39d1f8439d359d0378e3d2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51c1131aaa981cc209f3d8f96266c4a4') in 0.0404232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk08/Desk08Mat02.mat
+  artifactKey: Guid(a32dc93f8ff61f040b3f8bebc371892a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk08/Desk08Mat02.mat using Guid(a32dc93f8ff61f040b3f8bebc371892a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b2262dd367f61cb3df6b58b1dce787e2') in 0.021503 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs
+  artifactKey: Guid(64b4d97b96f2acb4fb28bca608a23171) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs using Guid(64b4d97b96f2acb4fb28bca608a23171) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0a9a6a79d2017433beecdfdca8612004') in 0.013054 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/LightingData.asset
+  artifactKey: Guid(5c327e43f61719c4da63b7bdb57f8192) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/LightingData.asset using Guid(5c327e43f61719c4da63b7bdb57f8192) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '27e17397776039e24bf9ae2cdfb85dba') in 0.0214966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/NewB
+  artifactKey: Guid(a843f8762c10e714c9bf631a25e4f5c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/NewB using Guid(a843f8762c10e714c9bf631a25e4f5c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32c2a0b79b19c7443eb7790aea8841cd') in 0.0141259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Occlusion.tga
+  artifactKey: Guid(3b4bc3f7e4c5cc54c8dbdb8e830d3400) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Occlusion.tga using Guid(3b4bc3f7e4c5cc54c8dbdb8e830d3400) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'be03877ae0c1c0fbbf179b4850d3f2e8') in 0.0244562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk03Mat/Desk/Desk03Mat03.mat
+  artifactKey: Guid(80346194e8a71f047ad0e4010b95c208) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk03Mat/Desk/Desk03Mat03.mat using Guid(80346194e8a71f047ad0e4010b95c208) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae5aef1d4d373dc763a2ee356b497648') in 0.0674174 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/DesksCollection-Mavi3D/Models
+  artifactKey: Guid(e078970a9e49fc44eb752a27e76e7ffc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Models using Guid(e078970a9e49fc44eb752a27e76e7ffc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad7e0e12200164ac2c253e341ff55c7c') in 0.0168532 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Desk03Mat01.mat
+  artifactKey: Guid(5cdba90b5b460f742868a52ef3e386c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Desk03Mat01.mat using Guid(5cdba90b5b460f742868a52ef3e386c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7a5b27ea1a56a1c7a1f215fbb924b3d') in 0.0188507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk04
+  artifactKey: Guid(f1edc6d958ccea24ba4ca94a057d6393) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk04 using Guid(f1edc6d958ccea24ba4ca94a057d6393) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89f5f63e098e173341fd338dbe85a80f') in 0.0125926 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk09/Desk09Mat01.mat
+  artifactKey: Guid(14aa731ed726a8c448b994f748890b38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk09/Desk09Mat01.mat using Guid(14aa731ed726a8c448b994f748890b38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7745f400421e692bbd28e009372a1ca') in 0.017429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk01Mat
+  artifactKey: Guid(aeb1c7e2ce6a7e54ebadfabea6b07eb1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk01Mat using Guid(aeb1c7e2ce6a7e54ebadfabea6b07eb1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1787d030f625ea69bb38df671eec0d4a') in 0.0209637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk10Textures
+  artifactKey: Guid(bb8a4f09a528cb240802ddb2eeb57845) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk10Textures using Guid(bb8a4f09a528cb240802ddb2eeb57845) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e554f65f59469abac3f8c1f18dcbb055') in 0.0196039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/NewB/Desk010Mask.tif
+  artifactKey: Guid(665a893582eede74397d62a20ba27e3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/NewB/Desk010Mask.tif using Guid(665a893582eede74397d62a20ba27e3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '476bec92e7383d4e35338b9c81af1895') in 0.0386698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk03Mat/Drawer
+  artifactKey: Guid(ca3cd8c5b04772b48bc73dbb0b4e423b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk03Mat/Drawer using Guid(ca3cd8c5b04772b48bc73dbb0b4e423b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '135b44f463314111d23b8406e92765e1') in 0.0194215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk08
+  artifactKey: Guid(df1b97cbcaf134d41a4836d8109eb7dc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk08 using Guid(df1b97cbcaf134d41a4836d8109eb7dc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa39fd25ec66bfc6d0c42c5cdb7a2335') in 0.0232268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk09Mat/Desk09Mat01.mat
+  artifactKey: Guid(d4085b2154e4bd44aa5c5bb8fa393b4e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk09Mat/Desk09Mat01.mat using Guid(d4085b2154e4bd44aa5c5bb8fa393b4e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72e7f606befe8194dd6d91b9fa03b151') in 0.0420848 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Roughness.tga
+  artifactKey: Guid(b04c4cf78d662d547b6f70694d242dee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Roughness.tga using Guid(b04c4cf78d662d547b6f70694d242dee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e46272ddca658e1abe6284a074edcd46') in 0.0459913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk06Textures/Materials
+  artifactKey: Guid(8fff08865078ccd4db89848ee0477ef6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk06Textures/Materials using Guid(8fff08865078ccd4db89848ee0477ef6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c22e00c9de61baf59f984ab1d67237c') in 0.0164457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/Lightmap-3_comp_light.exr
+  artifactKey: Guid(903e0328fb5ce364e9eebd061c588d61) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/DemoScenes/URP/URP Scene/Lightmap-3_comp_light.exr using Guid(903e0328fb5ce364e9eebd061c588d61) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '099fbd9530f5769fe5a6e38badf6177b') in 0.1790404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk06Mat
+  artifactKey: Guid(9268d1140a55b554abb63c41e3b15bc4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk06Mat using Guid(9268d1140a55b554abb63c41e3b15bc4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf242882ed1d30e1fabc20e94d84b3d5') in 0.0169892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk01Textures/Materials
+  artifactKey: Guid(c33c55dd92136414cbfe4229d4c8b722) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk01Textures/Materials using Guid(c33c55dd92136414cbfe4229d4c8b722) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81a54e7e93bd0a63be8e1da822685f5c') in 0.0211313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002510 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Materials
+  artifactKey: Guid(b91dfc2d22346e442b72e5f2034c7588) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Materials using Guid(b91dfc2d22346e442b72e5f2034c7588) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69ed8a13fc15c9d58dcef0455cf66b34') in 0.0166568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk03Textures/Desk03Normal.tga
+  artifactKey: Guid(e650c618d0bb41a4a91b653a20293b31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk03Textures/Desk03Normal.tga using Guid(e650c618d0bb41a4a91b653a20293b31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd3def9bdd429a7097d0166e3b086fd9') in 0.0390831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk10
+  artifactKey: Guid(d7367f2867a994849a84bed97dd5bf1c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk10 using Guid(d7367f2867a994849a84bed97dd5bf1c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fff6d85b11db8a04f08f48ad296202c3') in 0.0164194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk06Textures/Materials/Desk06Albedo.mat
+  artifactKey: Guid(8876c9e47d81b0048bcdbb9198be3b9d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk06Textures/Materials/Desk06Albedo.mat using Guid(8876c9e47d81b0048bcdbb9198be3b9d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a070cfab61d6b3e19c0f22d3ea47c370') in 0.0306389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Roughness.tga
+  artifactKey: Guid(c734ca1feb4557f4abf9d9694283a489) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Roughness.tga using Guid(c734ca1feb4557f4abf9d9694283a489) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd2869bb1b738a4dceb2e9ec3d06f458d') in 0.0478073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Planks/Planks.mat
+  artifactKey: Guid(a384b583426023d4da68d3f25e868451) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Materials/Planks/Planks.mat using Guid(a384b583426023d4da68d3f25e868451) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17149d97127d6890813f450f4b90f80f') in 0.1181298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Panels/Wood_Panels_height.png
+  artifactKey: Guid(9a8ce3a7b28a38648943493cf5d223a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Panels/Wood_Panels_height.png using Guid(9a8ce3a7b28a38648943493cf5d223a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a9b405dff1026ca13d0c9846e4f524a') in 0.0402886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000502 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Triangle/Wood_Triangle_metallic.png
+  artifactKey: Guid(6ba61bef9f683ed4580109c5afbf3b55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Triangle/Wood_Triangle_metallic.png using Guid(6ba61bef9f683ed4580109c5afbf3b55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de06e7a727a7e07829440ffcdbb05707') in 0.0419561 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Chevron/Chevron.mat
+  artifactKey: Guid(0141bc0de40b03c47a7d54dba3567d7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Materials/Chevron/Chevron.mat using Guid(0141bc0de40b03c47a7d54dba3567d7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd956d91620a2e812b5645901d1eb45ec') in 0.1050745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk08Mat/Desk08Mat02.mat
+  artifactKey: Guid(3f4edf76dfaaf1841a25c58a16c808cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk08Mat/Desk08Mat02.mat using Guid(3f4edf76dfaaf1841a25c58a16c808cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b3209eb4f154feaa3427760b150a9dfe') in 0.0173799 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk06Mat
+  artifactKey: Guid(a701b98c23eede44886a5bcbd24f19f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk06Mat using Guid(a701b98c23eede44886a5bcbd24f19f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c4092bd2a9bb16b02158db3b92e201c8') in 0.0159706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk01
+  artifactKey: Guid(7eeabb25e7129ca428c3e10bb106fd0f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk01 using Guid(7eeabb25e7129ca428c3e10bb106fd0f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8cedf0c70c98f743654b5a0dc28b9549') in 0.0140571 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk03Mat/Desk/Desk03Mat01.mat
+  artifactKey: Guid(cd9a145585d7fb04db061b010aa96dad) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk03Mat/Desk/Desk03Mat01.mat using Guid(cd9a145585d7fb04db061b010aa96dad) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7529f3ad0b47071f22a0e70220de34f8') in 0.0239626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat
+  artifactKey: Guid(6b24fc1cabc1af84d8584678f0e5be52) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk02Mat using Guid(6b24fc1cabc1af84d8584678f0e5be52) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e55208b1a50d4196af294e9714930278') in 0.0211831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001361 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk01Mat
+  artifactKey: Guid(ae55770693ca5194c8cd8ced030098c0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk01Mat using Guid(ae55770693ca5194c8cd8ced030098c0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8667c1089d9dc8ecd14b035f19d4c2f4') in 0.0174423 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Desk04Roughness.tga
+  artifactKey: Guid(131b012f44ecde0479738af0a6259c8a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Desk04Roughness.tga using Guid(131b012f44ecde0479738af0a6259c8a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e8012661bef59242bbd3a0f2a4b2c045') in 0.0506051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/DesksCollection-Mavi3D
+  artifactKey: Guid(4e797f88efde60d4a92c0f2d90fb14fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D using Guid(4e797f88efde60d4a92c0f2d90fb14fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81bf05133d7528b41f045612bfe01b14') in 0.0146381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Materials/Desk05Albedo.mat
+  artifactKey: Guid(2c62af8bc846c2441bb8699b833e8b08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Materials/Desk05Albedo.mat using Guid(2c62af8bc846c2441bb8699b833e8b08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '841d2485361e47bfde5704b6efda5cfd') in 0.022942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Chevron/Materials
+  artifactKey: Guid(b0c6e3824e40bc64db56a7a880306d22) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Chevron/Materials using Guid(b0c6e3824e40bc64db56a7a880306d22) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e5633f78f092cdcaa0b4705bc3e01ab') in 0.0223487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk03Textures/Materials/Desk03Albedo.mat
+  artifactKey: Guid(40107749cb808e7419748fc20900b0f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk03Textures/Materials/Desk03Albedo.mat using Guid(40107749cb808e7419748fc20900b0f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '374d4fdea3c3c290ace2cd8a86731947') in 0.0227964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_metallic.png
+  artifactKey: Guid(57d94ae7b197caf49b442cd728891118) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_metallic.png using Guid(57d94ae7b197caf49b442cd728891118) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89246363868375a6f6d4f697e0b960de') in 0.0280357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Herringbone/Wood_Herringbone_height.png
+  artifactKey: Guid(9a3539e3543e8b64e90c260236fa0bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Herringbone/Wood_Herringbone_height.png using Guid(9a3539e3543e8b64e90c260236fa0bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc2fdde5fbcc97e2d26600d462301681') in 0.0366397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Herringbone/Herringbone.mat
+  artifactKey: Guid(0576b3490a5948442aace3fadba823bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Materials/Herringbone/Herringbone.mat using Guid(0576b3490a5948442aace3fadba823bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a187fe94b12bdbf4bfe95034efe54c7a') in 0.0572911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Panels
+  artifactKey: Guid(b5cb3153f08f5bd4c80372fdef2494a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Panels using Guid(b5cb3153f08f5bd4c80372fdef2494a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '84f6910d677dd18fe8802a49f647206f') in 0.0155342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Planks/Materials
+  artifactKey: Guid(8e2155a09eaf62b4f99a3b15df7a48f8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Planks/Materials using Guid(8e2155a09eaf62b4f99a3b15df7a48f8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e50df80f4e819d6e0f8f25acdb55328d') in 0.0157064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Planks
+  artifactKey: Guid(743609d7bf717f945b97686cdda0774a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Materials/Planks using Guid(743609d7bf717f945b97686cdda0774a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '981fb259ef9e7bccd76d5069efb2a926') in 0.015441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Planks/Materials/Wood_Planks_basecolor.mat
+  artifactKey: Guid(f84f688b8b697ff43a5a0c1f6634d143) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Planks/Materials/Wood_Planks_basecolor.mat using Guid(f84f688b8b697ff43a5a0c1f6634d143) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87c57f55439cc9683f065d3520191019') in 0.0188219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Panels/Materials
+  artifactKey: Guid(f6587c8196a286945a9fc70cbb320eca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Panels/Materials using Guid(f6587c8196a286945a9fc70cbb320eca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f6be82b3bd6e02a44709623f92db6e4') in 0.0131995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk06Mat/Desk06Mat02.mat
+  artifactKey: Guid(6311ea3a0f25f5242bdc5f5a8c530036) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk06Mat/Desk06Mat02.mat using Guid(6311ea3a0f25f5242bdc5f5a8c530036) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '60b67c6797266de0d291126bddc43562') in 0.0186433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Stylized Wood Textures/Materials/Panels
+  artifactKey: Guid(67a6107b76225b64a80d6082b33ac95e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Materials/Panels using Guid(67a6107b76225b64a80d6082b33ac95e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f37a2c74527a5828e7b4d604394e7ce8') in 0.0148726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk09Textures
+  artifactKey: Guid(e336f5faf0bf984459e9e3030df26789) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk09Textures using Guid(e336f5faf0bf984459e9e3030df26789) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc5dc65178e3b052ab31fcd3da39d0dc') in 0.0160816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk04Mat
+  artifactKey: Guid(5b87aae868d4a1d469ea2f60faac23c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk04Mat using Guid(5b87aae868d4a1d469ea2f60faac23c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51c765c36409da82b6c199934e134c83') in 0.0174942 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/DesksCollection-Mavi3D/DemoScenes/HDRP/HDRP/Lightmap-0_comp_dir.png
+  artifactKey: Guid(bf2b31583a931904e94a90a96200a188) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/DemoScenes/HDRP/HDRP/Lightmap-0_comp_dir.png using Guid(bf2b31583a931904e94a90a96200a188) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac46b05d9add6dd8a765a2c5bb675c68') in 0.1001786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk02Textures/Desk/Desk02Albedo.tga
+  artifactKey: Guid(d3d2036086d4f1e46a2987d177a5c46f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk02Textures/Desk/Desk02Albedo.tga using Guid(d3d2036086d4f1e46a2987d177a5c46f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad002d2fb8b2e2abb1c2f17aa15399b6') in 0.0516089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Image/360_F_189979649_knsFNkZpQwm7uwceejm2kH7J8AJoWr16-2.jpg
+  artifactKey: Guid(68bd960352ae44dcca88773388d10405) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/360_F_189979649_knsFNkZpQwm7uwceejm2kH7J8AJoWr16-2.jpg using Guid(68bd960352ae44dcca88773388d10405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8ee63cd1156b84056e38aaba22f951d8') in 0.0442517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Maze/Prefabs/Tree_3_V1.prefab
+  artifactKey: Guid(73f70af9d9a62974c825d662f67408cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Tree_3_V1.prefab using Guid(73f70af9d9a62974c825d662f67408cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb227462f1c42550b826f3d5f8648a2a') in 0.0303562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001284 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/Spark.prefab
+  artifactKey: Guid(b49e37c2e747d4ed4bd2369d30fa0d68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/Spark.prefab using Guid(b49e37c2e747d4ed4bd2369d30fa0d68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ebef6f1ea895c50f43b0222ec63c67d') in 0.1697389 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003915 seconds.
+  path: Assets/Maze/Models/Tree_3_V1.fbx
+  artifactKey: Guid(a428b55e6190909499f600d13e26498b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Tree_3_V1.fbx using Guid(a428b55e6190909499f600d13e26498b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '47979e983f3ced04004531e5f74100e9') in 0.0333522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Textures/DoorsWindowsTexture.png
+  artifactKey: Guid(0567fd25c689cb642b22e70a3a26e0e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Textures/DoorsWindowsTexture.png using Guid(0567fd25c689cb642b22e70a3a26e0e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '087b9980071c32f3e982f13e2a46c0e6') in 0.0291206 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Textures
+  artifactKey: Guid(6e80142a120d2214b80f38dce6e0b97d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Textures using Guid(6e80142a120d2214b80f38dce6e0b97d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8af4e505a8e8afdc1ce0af39260d966') in 0.0127648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/sphere.mat
+  artifactKey: Guid(09f8e24d6060f4a7bb66e6b9cfeed608) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/sphere.mat using Guid(09f8e24d6060f4a7bb66e6b9cfeed608) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a7dea83989e1166ea7f1f42387dd2543') in 0.0195758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Wands/Prefabs/wand04_green.prefab
+  artifactKey: Guid(ca8bafd9a86d1c84a9a66e519b492835) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand04_green.prefab using Guid(ca8bafd9a86d1c84a9a66e519b492835) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5056c0cef24ed0b3f53572e1407e6dc1') in 0.0260577 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk04/Desk04Mat.mat
+  artifactKey: Guid(eab6067f525fe7841b05e47ccab815f9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk04/Desk04Mat.mat using Guid(eab6067f525fe7841b05e47ccab815f9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f899aae8c403f0a25fa434afd175444') in 0.0175941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Maze/Prefabs
+  artifactKey: Guid(60d26f940f9491a4c93729083dc52405) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs using Guid(60d26f940f9491a4c93729083dc52405) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb950aa759f109aad64e7e6541d93068') in 0.0142109 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk04Mat/Desk04Mat02.mat
+  artifactKey: Guid(4a30fdd5371668448a96de6b2c932868) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/Built-In/Desk04Mat/Desk04Mat02.mat using Guid(4a30fdd5371668448a96de6b2c932868) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f363c6dad519162ab2c5f31f7d5d2ce2') in 0.0319487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/HDRP/Desk09.prefab
+  artifactKey: Guid(f610d6ab25a7f7f45b93452b8a6be41e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/HDRP/Desk09.prefab using Guid(f610d6ab25a7f7f45b93452b8a6be41e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b9405da0f6b405a4c0687f2a5f6ac872') in 0.0324456 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk10Textures/Desk10Albedo.tga
+  artifactKey: Guid(d09d546aaf5908a44ad96cb1e80c8db5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk10Textures/Desk10Albedo.tga using Guid(d09d546aaf5908a44ad96cb1e80c8db5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '853bd36082b07dead1e625aced2406ac') in 0.0304231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/fireShot.prefab
+  artifactKey: Guid(b2e1927a9cfbd4c03a114b0166c00dce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/fireShot.prefab using Guid(b2e1927a9cfbd4c03a114b0166c00dce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3477340deb9330998b22fe9326ab200c') in 0.0501457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Wands/Prefabs/wand01_yellow.prefab
+  artifactKey: Guid(f974ad7c294dd994db976cbd37ed92e1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand01_yellow.prefab using Guid(f974ad7c294dd994db976cbd37ed92e1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67d1bcd22c15dea01c5e84d575144dd5') in 0.0209467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wands/Textures/texture01.PSD
+  artifactKey: Guid(e69c70d80df2ecd4abd2fc7987f311d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Textures/texture01.PSD using Guid(e69c70d80df2ecd4abd2fc7987f311d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41ef0fcee1f467ba77112bcedc49a70e') in 0.0267615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Wands/Prefabs/orb04_green.prefab
+  artifactKey: Guid(4429006b7cac93d40910746372ea5184) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb04_green.prefab using Guid(4429006b7cac93d40910746372ea5184) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0c4c08959d9bcfc97cadbb749ba19b4b') in 0.0205063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/skillAttack.prefab
+  artifactKey: Guid(a89abc0d2591545288f4c041059ae633) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/skillAttack.prefab using Guid(a89abc0d2591545288f4c041059ae633) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df9143cfbb71addffd465072e6824ceb') in 0.0618481 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wands/Prefabs/orb01_purple.prefab
+  artifactKey: Guid(2f40dfe8a438c40419d0a77209227a6e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb01_purple.prefab using Guid(2f40dfe8a438c40419d0a77209227a6e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5154781e7fa2658a5a2021e1b11fa4f8') in 0.0216093 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/project1_coreb00000_4x4.png
+  artifactKey: Guid(fd8840ed013374df7bff5ecc9af83ffc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/project1_coreb00000_4x4.png using Guid(fd8840ed013374df7bff5ecc9af83ffc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28ffe72fc564d7bd96f3a448e50cbf45') in 0.0280411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Materials
+  artifactKey: Guid(57abc5ad12a577542a6362db3cfe6a97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Materials using Guid(57abc5ad12a577542a6362db3cfe6a97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '224c4f5d31f45d34ef341b1dfea559aa') in 0.0152333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Wands/Prefabs/orb04_purple.prefab
+  artifactKey: Guid(acfc696393912ec4d9d387c260264026) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb04_purple.prefab using Guid(acfc696393912ec4d9d387c260264026) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64c245778d2368c52955717bf008fe59') in 0.0210108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wands/Prefabs/orb02_yellow.prefab
+  artifactKey: Guid(3e922353e24277445b297af942c2c4d3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb02_yellow.prefab using Guid(3e922353e24277445b297af942c2c4d3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '726652062594ba71fe3bc77a54bf3906') in 0.0378005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/spark00.mat
+  artifactKey: Guid(e5c21b71466e14fb4ba9191442c35382) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/spark00.mat using Guid(e5c21b71466e14fb4ba9191442c35382) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77fe268077710a0cdac5fbc7c106c89a') in 0.0200348 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/DesksCollection-Mavi3D/Models/Desk07.fbx
+  artifactKey: Guid(c7939e34e63bb024e8ffd4866d12c70f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Models/Desk07.fbx using Guid(c7939e34e63bb024e8ffd4866d12c70f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99df71c5b1843fd8972c676eb55d6c1b') in 0.0459522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk05/Desk05Mat01.mat
+  artifactKey: Guid(826441eeeb6b8df45a81b573df10d309) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk05/Desk05Mat01.mat using Guid(826441eeeb6b8df45a81b573df10d309) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '31b8b41415dc6b33bc4a34ed247b2719') in 0.0310897 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP
+  artifactKey: Guid(bbb7da5d8841aae4780e9ec09f66264d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP using Guid(bbb7da5d8841aae4780e9ec09f66264d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88d454584125cce52d352736decb1939') in 0.0182033 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/NewB/Desk07Mask.tif
+  artifactKey: Guid(ff30cf2a783b48447a5401f43ad995f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/NewB/Desk07Mask.tif using Guid(ff30cf2a783b48447a5401f43ad995f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ed46f302aa63b1bc3b93a5e74ccab28') in 0.0486329 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/URP/Desk10.prefab
+  artifactKey: Guid(7c49fc96b8bf21740a45bfaa06594cc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/URP/Desk10.prefab using Guid(7c49fc96b8bf21740a45bfaa06594cc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10abce5f66192917ea4f42d9df7b1104') in 0.0288115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maze/Materials/Textures/ImphenziaPixPal_URP.shadergraph
+  artifactKey: Guid(460ea6d5194a28a4384791b448d16a0d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Materials/Textures/ImphenziaPixPal_URP.shadergraph using Guid(460ea6d5194a28a4384791b448d16a0d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79521563b04c08dafbd74b7aef402746') in 0.0160636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/energyBlast.prefab
+  artifactKey: Guid(44dd4fdbb6f10429a844c51183a4c84e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/energyBlast.prefab using Guid(44dd4fdbb6f10429a844c51183a4c84e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e4d0f11b291693742e59def6400b0e40') in 0.0606711 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 26
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat
+  artifactKey: Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTowerTexture.mat using Guid(50396243bd3aa4e40bff949c37ac7034) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b60ccd8e91372d4505de4a92afa6de5') in 0.0229351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Maze/Prefabs/Gap.prefab
+  artifactKey: Guid(5a1b1bec0f03d1348a3ae23ffaecb6a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Gap.prefab using Guid(5a1b1bec0f03d1348a3ae23ffaecb6a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e98ba3a7d96f393f5c032f4c9484668') in 0.0270994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wands/Prefabs/wand05_blue.prefab
+  artifactKey: Guid(7e4fe71e8701ed147ac48614044e1c01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand05_blue.prefab using Guid(7e4fe71e8701ed147ac48614044e1c01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17d1e96aafc0ba2504fbe5684600d22b') in 0.0230585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Bridge.fbx
+  artifactKey: Guid(a18e05c3226dd274caeb4a43212e40c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Bridge.fbx using Guid(a18e05c3226dd274caeb4a43212e40c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '75e36dff5f7bd18503e35cba4c898872') in 0.0335966 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Wands/Prefabs/wand05_red.prefab
+  artifactKey: Guid(af9661a118d78d34498796cfeae92dfb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand05_red.prefab using Guid(af9661a118d78d34498796cfeae92dfb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65c586ba977253183d3885adb5cf3d56') in 0.0206527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wands/Prefabs/wand05_green.prefab
+  artifactKey: Guid(2ec0a21ef68f64a46864ad388da793c4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand05_green.prefab using Guid(2ec0a21ef68f64a46864ad388da793c4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9a3a27962cb20a9a498871a77dfc0d0e') in 0.0291572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/spark00.png
+  artifactKey: Guid(721337f01450c48b99e1697499c02e55) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/spark00.png using Guid(721337f01450c48b99e1697499c02e55) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48d73133f8677306ede358831fb7b88e') in 0.0359618 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/explosion_4x4.png
+  artifactKey: Guid(0097857ce343b494ca4f2f42f84dc56b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/explosion_4x4.png using Guid(0097857ce343b494ca4f2f42f84dc56b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b4b6405ea2c7fb9feab05af4970f6f1') in 0.0293841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Wands/Prefabs/orb03_red.prefab
+  artifactKey: Guid(ab24ef0900089004a8d270a23704c140) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb03_red.prefab using Guid(ab24ef0900089004a8d270a23704c140) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b35ae3ab72ea80d0c2a7147bc7a60ed3') in 0.0215517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge.prefab
+  artifactKey: Guid(aef0c05ee60182c40b56f85304a84027) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Bridge.prefab using Guid(aef0c05ee60182c40b56f85304a84027) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '512f9cfa9290df930c8519a9d070ecf1') in 0.0189698 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/skill_sw_4x2.png
+  artifactKey: Guid(0439a29542b994b20b7df6f9662b999d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/skill_sw_4x2.png using Guid(0439a29542b994b20b7df6f9662b999d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e9079319c83fa16c067025f5ef66c17') in 0.030307 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Maze/Prefabs/Wall_3M.prefab
+  artifactKey: Guid(54d08ba60661ea943a645c9fdbb4d353) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Wall_3M.prefab using Guid(54d08ba60661ea943a645c9fdbb4d353) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9f0101d80fc8f65cf155c91a9f7cb74a') in 0.0307828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Doors and Windows.fbx
+  artifactKey: Guid(d05fa8828be199048bb709f826cc3c53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Doors and Windows.fbx using Guid(d05fa8828be199048bb709f826cc3c53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '87716fab183ade08b6510f0665739847') in 0.0546636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 41
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KY_effects/Script/Lighting.cs
+  artifactKey: Guid(7bf07bd4d8e774eb48e7273353252009) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/Script/Lighting.cs using Guid(7bf07bd4d8e774eb48e7273353252009) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35048b94e4df56865bbc04cc611dd8bc') in 0.01448 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Advance Studios/Medieval Castle
+  artifactKey: Guid(cf2933b77e16a624ba1f59eb0b0f01ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle using Guid(cf2933b77e16a624ba1f59eb0b0f01ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '252086ba9e96a7e659931d992a865a08') in 0.0161491 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Wands/Models
+  artifactKey: Guid(d1fe72f7455c9424a80b0b20a37fd367) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Models using Guid(d1fe72f7455c9424a80b0b20a37fd367) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '804aa2173e697b2c9c5d4ce253362b52') in 0.0170067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/greenCore_4x4.png
+  artifactKey: Guid(6e252109536f9409d9b1408e628622c6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/greenCore_4x4.png using Guid(6e252109536f9409d9b1408e628622c6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03977e8adefe4ba264087c6207d0202f') in 0.0248412 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Small.prefab
+  artifactKey: Guid(269887260d31d1041b658681cec01a0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Small.prefab using Guid(269887260d31d1041b658681cec01a0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'faa7a65258a185f80e5cbe3325d52470') in 0.0205372 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Large.prefab
+  artifactKey: Guid(0e8152fe58379e843be49840febab4dd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Bridge Large.prefab using Guid(0e8152fe58379e843be49840febab4dd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '460c952a6ff98794ffb3ca05f41f62e6') in 0.0208653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maze/Models/Tree_2_V2.fbx
+  artifactKey: Guid(3c1e6e153d83f2f45b5844e0d44d3b44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Tree_2_V2.fbx using Guid(3c1e6e153d83f2f45b5844e0d44d3b44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70359c85a1bd2dab70cde98e1f89599b') in 0.0270878 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Maze/Materials/Textures/ImphenziaPixPal_Emission.png
+  artifactKey: Guid(cd18bb2855b19c14bb33ab3b64d00890) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Materials/Textures/ImphenziaPixPal_Emission.png using Guid(cd18bb2855b19c14bb33ab3b64d00890) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35c80e92c67264b25975d8b844762980') in 0.0266562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Maze/Prefabs/Wall_Light.prefab
+  artifactKey: Guid(52854b7453417924faa50fb7d021a14d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Wall_Light.prefab using Guid(52854b7453417924faa50fb7d021a14d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '476bc8428a0fbf37d72e8f8b9c13c531') in 0.0297673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Tower B.fbx
+  artifactKey: Guid(64f4be06a92a5dd4a99c31e59ac47d42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Tower B.fbx using Guid(64f4be06a92a5dd4a99c31e59ac47d42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd9c0a731c62f7ab79d9820a0479da560') in 0.0297962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/Castle.prefab
+  artifactKey: Guid(afe06cfa5721b824792de9e11596626b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/Castle.prefab using Guid(afe06cfa5721b824792de9e11596626b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7cbfc5c34e808af3aa0874fc89c7e7f') in 0.0349536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 72
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/circle.png
+  artifactKey: Guid(1517498f6f43e4075b42c89d0c67190a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/circle.png using Guid(1517498f6f43e4075b42c89d0c67190a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fcae9990c2420371c348fb2cd5d2854') in 0.0280264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000571 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/skillAttack2.prefab
+  artifactKey: Guid(5c7aeddefe9f8499091b160181d837ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/skillAttack2.prefab using Guid(5c7aeddefe9f8499091b160181d837ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d8c69d2f460cb13174dccdb84fb3702') in 0.0643705 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Maze/Prefabs/Tree_4_V2.prefab
+  artifactKey: Guid(e213e39257a3b0e4492e17f9fe253453) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Tree_4_V2.prefab using Guid(e213e39257a3b0e4492e17f9fe253453) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7bfc45d506cf23dc8598ce2ab9bf1675') in 0.0286975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000705 seconds.
+  path: Assets/Maze/Models/Tree_3_V2.fbx
+  artifactKey: Guid(bb8ad0eac87b9574da5a7d165f0b7013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Tree_3_V2.fbx using Guid(bb8ad0eac87b9574da5a7d165f0b7013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '702cfda051f2a0fd4e05a290771e8b8a') in 0.0326061 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/darkBall_4x4.mat
+  artifactKey: Guid(581137eafd891470c824d69db3fb06d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/darkBall_4x4.mat using Guid(581137eafd891470c824d69db3fb06d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '227ec4bb80d1463857e5f434d983ab1b') in 0.0268876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Wands/Prefabs/wand03_yellow.prefab
+  artifactKey: Guid(f860e21d40912044096cc8d6b2501579) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand03_yellow.prefab using Guid(f860e21d40912044096cc8d6b2501579) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9517a3a6d451ca28443fd25ccbc15377') in 0.0238306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Textures/CastleWallTexture.png
+  artifactKey: Guid(ba3f95b2ca63fdf4d93409dda1c25f12) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Textures/CastleWallTexture.png using Guid(ba3f95b2ca63fdf4d93409dda1c25f12) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4d1d846fd8a72702bb7b1b193b413592') in 0.0280679 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Wall.fbx
+  artifactKey: Guid(38b797ba6cc77df40a51cd3200365644) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Wall.fbx using Guid(38b797ba6cc77df40a51cd3200365644) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '699a57afaba9e12bfb02bb527d193c8c') in 0.0330143 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000910 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab
+  artifactKey: Guid(f147683b4fddc4de5b582d36da9206ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab using Guid(f147683b4fddc4de5b582d36da9206ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cfeaeb09d4bf25a1777bd5cf5c681fbd') in 0.0143842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/Light.mat
+  artifactKey: Guid(8371c910b6db2463391a051e571e2558) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/Light.mat using Guid(8371c910b6db2463391a051e571e2558) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '379a5f133b21552c4328458d63a3eed5') in 0.0192422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000498 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/skillAttack.prefab
+  artifactKey: Guid(4ace374ac48734e0a8159109bc4c6bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/skillAttack.prefab using Guid(4ace374ac48734e0a8159109bc4c6bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '16939456cefe47610379a0455d6fcf88') in 0.0492971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 15
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/project1_00000_8x2.png
+  artifactKey: Guid(32f7310698aac494db0d6aa0262e2a75) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/project1_00000_8x2.png using Guid(32f7310698aac494db0d6aa0262e2a75) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '45cca7aa2afd3901964bd0db28b03171') in 0.0275077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Wands/Prefabs/orb05_green.prefab
+  artifactKey: Guid(66009ea93fa036c4e830f9f2a4c06a18) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb05_green.prefab using Guid(66009ea93fa036c4e830f9f2a4c06a18) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd62dad7799dc0207d6c03ff420cab0b6') in 0.0237273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Maze/Prefabs/Switch.prefab
+  artifactKey: Guid(0aa37b6666ba4d642921aa823a3add65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Switch.prefab using Guid(0aa37b6666ba4d642921aa823a3add65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd03d744a2270d4611e442d04681d3782') in 0.0213196 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Textures/CasaATextura.png
+  artifactKey: Guid(e9e492f79fd5a404c9b12c7cb71d49a6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Textures/CasaATextura.png using Guid(e9e492f79fd5a404c9b12c7cb71d49a6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff1012942d7edbfe3eda751a00523449') in 0.0275404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Maze/Materials/Textures
+  artifactKey: Guid(fdf0021f0eca2e1429251198efe20edf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Materials/Textures using Guid(fdf0021f0eca2e1429251198efe20edf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72fc29e03228891763bf9792d3f97c90') in 0.0150719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures/bg.png
+  artifactKey: Guid(c0fa39a92eb0f4e29a63473190cbd340) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures/bg.png using Guid(c0fa39a92eb0f4e29a63473190cbd340) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '155ba66e8c55565430791dce3b893c2a') in 0.0240597 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Wands/Prefabs/wand01_red.prefab
+  artifactKey: Guid(f05ca6457085e0f428373f98413918ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand01_red.prefab using Guid(f05ca6457085e0f428373f98413918ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '352de73a174ed654a962f93823586a3f') in 0.0257889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/GameManager.cs
+  artifactKey: Guid(db433d4063b8b4f37a9838e6d3894b11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/GameManager.cs using Guid(db433d4063b8b4f37a9838e6d3894b11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd156021282ebf45bced6fa541bb2971b') in 0.0156912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Prefabs/House B.prefab
+  artifactKey: Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Prefabs/House B.prefab using Guid(8c2cabd72c2871e4fa25d9761a86fef5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a57e6d66ef23ea4b7acfcda562575bc') in 0.0307642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 42
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wands/Prefabs/wand01_blue.prefab
+  artifactKey: Guid(14a1089dfc8b2f949937da50bf38bc90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand01_blue.prefab using Guid(14a1089dfc8b2f949937da50bf38bc90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9bd37662cb38c333946c78f47852c1bf') in 0.0199444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Maze/Models/Wall_2M.fbx
+  artifactKey: Guid(d0f5b46e8c000fa49b6b21e4220303a2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Wall_2M.fbx using Guid(d0f5b46e8c000fa49b6b21e4220303a2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5df03f3f83fc55223e30eeabd009dd2b') in 0.0251264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Wands/Example SceneSettings.lighting
+  artifactKey: Guid(ccb0be99ecef5441c90c0eebf85c7962) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Example SceneSettings.lighting using Guid(ccb0be99ecef5441c90c0eebf85c7962) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e4f589463c584e17113799eff64669c') in 0.027913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Image/grass.jpg
+  artifactKey: Guid(59e70a5cb55904ae49d7c7fc0818da83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/grass.jpg using Guid(59e70a5cb55904ae49d7c7fc0818da83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4745df2dbcf83bcc44a5fce23bc253de') in 0.0388466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/ErekiBall.prefab
+  artifactKey: Guid(391ec6f1311384e75b4888fd6fc26b7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/ErekiBall.prefab using Guid(391ec6f1311384e75b4888fd6fc26b7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3b56e03f8201915a1aba789c52e241ad') in 0.0500858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Image/Materials
+  artifactKey: Guid(5c49d7ac949f1459889d2858fabc6513) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Image/Materials using Guid(5c49d7ac949f1459889d2858fabc6513) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76eab7537dec70dfac714c60c25d0ca5') in 0.0160729 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001056 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/frameBall.prefab
+  artifactKey: Guid(d42d2a594cf3a44d79c3fdd83c8ce796) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/prefab/00_primitive/frameBall.prefab using Guid(d42d2a594cf3a44d79c3fdd83c8ce796) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c779e8f526e3c9ed239923f398ec627a') in 0.0614347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Textures
+  artifactKey: Guid(12ac27384fe1b4809a8a8f8008eb98bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Textures using Guid(12ac27384fe1b4809a8a8f8008eb98bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cfea1db0939e3232175f3aea9c83a05') in 0.0116072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Wands/Prefabs/wand05_yellow.prefab
+  artifactKey: Guid(0c91618feef20c948a5f1566ab1d8275) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand05_yellow.prefab using Guid(0c91618feef20c948a5f1566ab1d8275) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da97a96dff28d66287544ffe960810ba') in 0.0255921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Wands/Prefabs/wand03_green.prefab
+  artifactKey: Guid(2b46cc393735f634f89cb88a9e97aaa7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand03_green.prefab using Guid(2b46cc393735f634f89cb88a9e97aaa7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7592f09b4784c0506dd0b660ff4e0bd8') in 0.0198801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Wands/Prefabs/orb02_blue.prefab
+  artifactKey: Guid(db2bbe470decdb34388b5f22e94766fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb02_blue.prefab using Guid(db2bbe470decdb34388b5f22e94766fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c434514cf0ffd5f147e5c71083064f61') in 0.0283437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/Star.mat
+  artifactKey: Guid(4b294e20f51814785818b6a20b456aa8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/Star.mat using Guid(4b294e20f51814785818b6a20b456aa8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '466f28bfa93d0610bac75a49d89f656a') in 0.0200262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Wands/Prefabs/orb01_red.prefab
+  artifactKey: Guid(8eb36e8533db0334c88e703607efa78b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb01_red.prefab using Guid(8eb36e8533db0334c88e703607efa78b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1aabb211373640f5b16bec2a8e6977bc') in 0.0347911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000851 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/Wall.mat
+  artifactKey: Guid(82d1bd5c5417047a8a3e26d64ba9619f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/Wall.mat using Guid(82d1bd5c5417047a8a3e26d64ba9619f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0afe3c62e9115b761965ddc494cfdd03') in 0.0179763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleWallTexture.mat
+  artifactKey: Guid(da9a573d7a0024a4d918df62e1720a31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleWallTexture.mat using Guid(da9a573d7a0024a4d918df62e1720a31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f3a87b8b9033b41d988a9a730fea6f89') in 0.020277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Maze/Prefabs/Wall_Lamp.prefab
+  artifactKey: Guid(c0907f21c8d187b43829eb485f4489d7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Wall_Lamp.prefab using Guid(c0907f21c8d187b43829eb485f4489d7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bcc61f22dcc3493adddaa1ea85cad77a') in 0.0221557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/Wands/Prefabs/wand03_purple.prefab
+  artifactKey: Guid(002ce902530453c4f8c8289934f2578a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand03_purple.prefab using Guid(002ce902530453c4f8c8289934f2578a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a6095fc483993969b2f02abe6c9270ae') in 0.0279628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk02Mat/Drawer
+  artifactKey: Guid(1ac877d3dc6c2df48863aa5857b82517) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk02Mat/Drawer using Guid(1ac877d3dc6c2df48863aa5857b82517) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c1c7caa54044708b27f8580cf441d3e2') in 0.0175255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Herringbone/Wood_Herringbone_ambientocclusion.png
+  artifactKey: Guid(15af74a8c7f695440b3c413547a7fac3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Herringbone/Wood_Herringbone_ambientocclusion.png using Guid(15af74a8c7f695440b3c413547a7fac3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e42c0d9d2de7750679f863cf3f37e86e') in 0.0320818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/DesksCollection-Mavi3D/Models/Desk04.fbx
+  artifactKey: Guid(a21607395c7e4f5448db1b8c9f7cbd16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Models/Desk04.fbx using Guid(a21607395c7e4f5448db1b8c9f7cbd16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ebfaa0a221b306624a83f49bc19e588') in 0.0381427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk07Textures/Desk07Occlusion.tga
+  artifactKey: Guid(6d15bdec348b86847b020162faf7de70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk07Textures/Desk07Occlusion.tga using Guid(6d15bdec348b86847b020162faf7de70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '826cf1ac2fdd559ade57dcb636cb2903') in 0.0415278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Drawers/Desk03Drawer02.mat
+  artifactKey: Guid(ca3773a852cd6a449ad8d64f26cd23ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Drawers/Desk03Drawer02.mat using Guid(ca3773a852cd6a449ad8d64f26cd23ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d70d356ce07dcdf141d69dd48d9c4ee') in 0.0174653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/URP/Desk03Mat
+  artifactKey: Guid(997e924f60fa45e46b07f712beb99e8f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/URP/Desk03Mat using Guid(997e924f60fa45e46b07f712beb99e8f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a075d44cba0c62224110af938ba44a4e') in 0.0153504 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Occlusion.tga
+  artifactKey: Guid(53d2e8e44b048f84f809a3523a8c4dd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk05Textures/Desk05Occlusion.tga using Guid(53d2e8e44b048f84f809a3523a8c4dd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'de13f3ccadb1ad8fb03d7b772e5997b4') in 0.0320817 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Desk03Mat02.mat
+  artifactKey: Guid(dd597576653b58c4cb880f0c404a4343) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Materials/HDRP/Desk03/Desk03Mat02.mat using Guid(dd597576653b58c4cb880f0c404a4343) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4c7261fc9b3b2e93d69ec628aa2585e4') in 0.0196486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Stylized Wood Textures/Demo/Demo.unity
+  artifactKey: Guid(ab0d50abf92937d42ac6997e0ff3f5c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Demo/Demo.unity using Guid(ab0d50abf92937d42ac6997e0ff3f5c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6856b7404915baaf5d5b2f6e820e296f') in 0.0204415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Maze/Models/Switch.fbx
+  artifactKey: Guid(db1a69f26ddbf7c48a79d80538a8d820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Switch.fbx using Guid(db1a69f26ddbf7c48a79d80538a8d820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '85776e94600d9cc66bd10bcb93635638') in 0.028013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Desk04Normal.tga
+  artifactKey: Guid(d2a676910aa765d40849d8d38704e996) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk04Textures/Desk04Normal.tga using Guid(d2a676910aa765d40849d8d38704e996) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da82ebd3b1b711cf219eeeb02eda68f') in 0.0401586 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Textures/CastleTexture.png
+  artifactKey: Guid(d10822b4cca708f44ade4fcb63a76e65) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Textures/CastleTexture.png using Guid(d10822b4cca708f44ade4fcb63a76e65) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'da6d4ba39153697df0cacc84d26af4d9') in 0.0389399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000105 seconds.
+  path: Assets/DesksCollection-Mavi3D/Prefabs/HDRP
+  artifactKey: Guid(ae9f2de8d2c08354fba3a8b3ead5877e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Prefabs/HDRP using Guid(ae9f2de8d2c08354fba3a8b3ead5877e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bffbf254458e3f7c0d894c74e3e32627') in 0.0137323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk10Textures/Desk10Occlusion.tga
+  artifactKey: Guid(b5ddff9530845f14ea77caab0beb6612) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk10Textures/Desk10Occlusion.tga using Guid(b5ddff9530845f14ea77caab0beb6612) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ef37ec101bb71ccca4a1ea83c485355') in 0.0328765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Maze/Models/Floor_1M.fbx
+  artifactKey: Guid(b32cdfb827fef7743b387707c1f5bc8b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Floor_1M.fbx using Guid(b32cdfb827fef7743b387707c1f5bc8b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1684ee6bd5ebf5a2dfa450b98cfbd5c6') in 0.038172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Normal.tga
+  artifactKey: Guid(15a39de30707fd143a73cc3ddae861cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Normal.tga using Guid(15a39de30707fd143a73cc3ddae861cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad35f588478fa37a7dbed625197616ab') in 0.0784111 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/DesksCollection-Mavi3D/DemoScenes/HDRP/HDRP/Lightmap-1_comp_dir.png
+  artifactKey: Guid(fb73f141fd7b1ae43b2aafbe6ccac52d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/DemoScenes/HDRP/HDRP/Lightmap-1_comp_dir.png using Guid(fb73f141fd7b1ae43b2aafbe6ccac52d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e35fd31174ae76f6fe2cbf08ade90cf1') in 0.1585528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Wands/Prefabs/orb04_red.prefab
+  artifactKey: Guid(3cfec4cf1fb2fc84a8f9c9a24eede5cf) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb04_red.prefab using Guid(3cfec4cf1fb2fc84a8f9c9a24eede5cf) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b31a48126000abf6557b84731af6460c') in 0.0358818 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Square/Wood_Square_metallic.png
+  artifactKey: Guid(afb727857a3537445b102d9e816bd11d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Square/Wood_Square_metallic.png using Guid(afb727857a3537445b102d9e816bd11d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79754e052e12a2d8f6e03c7a4bc3f07f') in 0.0320994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Scenes/Demo.unity
+  artifactKey: Guid(4e0b2b51b6662be4f9d98e95645aff16) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Scenes/Demo.unity using Guid(4e0b2b51b6662be4f9d98e95645aff16) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35253206ef20f9cea2a44b490c486f71') in 0.0322007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Triangle/Wood_Triangle_basecolor.png
+  artifactKey: Guid(e3537fc042bbba94ea33ce0d9abe3592) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Triangle/Wood_Triangle_basecolor.png using Guid(e3537fc042bbba94ea33ce0d9abe3592) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e29789aefb6d495bd53585286c333043') in 0.0284352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/KY_effects/MagicEffectsPackFree/Materials/fire_8x2.mat
+  artifactKey: Guid(a4aa39205d4684799b1966aceba84c80) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/KY_effects/MagicEffectsPackFree/Materials/fire_8x2.mat using Guid(a4aa39205d4684799b1966aceba84c80) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '802d60516ec3742b9d2d6ff47b1d9ffe') in 0.020899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTexture.mat
+  artifactKey: Guid(31a4673ea55360d46b2b47bdbef014d1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Advance Studios/Medieval Castle/Art/Model/Materials/CastleTexture.mat using Guid(31a4673ea55360d46b2b47bdbef014d1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a6f1e277d66bd516087596568f198c7') in 0.0354811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Maze/Models/Floor_2M.fbx
+  artifactKey: Guid(b60e5da05f0583e4188ab1c2c3d9689a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Models/Floor_2M.fbx using Guid(b60e5da05f0583e4188ab1c2c3d9689a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba9ce63c9992e98c7f71c912f24dd86f') in 0.0312265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001011 seconds.
+  path: Assets/Maze/Prefabs/Floor_1M.prefab
+  artifactKey: Guid(0c81722e3c1f83c48a35b9022ae44f8e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Maze/Prefabs/Floor_1M.prefab using Guid(0c81722e3c1f83c48a35b9022ae44f8e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db0ff5dfbc4c3616ecce7e6c1326d2c5') in 0.0303993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Wands/Prefabs/wand04_purple.prefab
+  artifactKey: Guid(12c69a31240dca742abe09b6c9abc1f0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/wand04_purple.prefab using Guid(12c69a31240dca742abe09b6c9abc1f0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa3238ace42079565d31100f9c325f6f') in 0.0398158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Wands/Read Me.txt
+  artifactKey: Guid(ada89be3db57b8b40897532ec938f385) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Read Me.txt using Guid(ada89be3db57b8b40897532ec938f385) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b77aa46958931089eb66c9f1d6e4daa2') in 0.0230126 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Wands/Prefabs/orb04_yellow.prefab
+  artifactKey: Guid(70132c1c562fb03419f08eabde6d6e20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Wands/Prefabs/orb04_yellow.prefab using Guid(70132c1c562fb03419f08eabde6d6e20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2b1bc219e4ed642a6b5272e5fdd18b40') in 0.1452853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_height.png
+  artifactKey: Guid(2b25acc30a6cf214f8c4635ebb5fbba1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Stylized Wood Textures/Textures/Chevron/Wood_Chevron_height.png using Guid(2b25acc30a6cf214f8c4635ebb5fbba1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9b5464899db61f5192025f0ed3f7105') in 0.0425142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001055 seconds.
+  path: Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Albedo.tga
+  artifactKey: Guid(2c2c84fa170fdc743b8427f9248928f4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DesksCollection-Mavi3D/Textures/Desk08Textures/Desk08Albedo.tga using Guid(2c2c84fa170fdc743b8427f9248928f4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a65b8ab79600e3b35a156c7f37d5e7f5') in 0.0609879 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

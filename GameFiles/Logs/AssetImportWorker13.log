@@ -1,0 +1,750 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 15973 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/ethan/My project
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+58437
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/ethan/My project
+C:/Users/ethan/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [55524]  Target information:
+
+Player connection [55524]  * "[IP] 142.3.80.56 [Port] 0 [Flags] 2 [Guid] 1625927771 [EditorId] 1625927771 [Version] 1048832 [Id] WindowsEditor(7,BOOK-G8AA279PT7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [55524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [55524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 812.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ethan/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Qualcomm(R) Adreno(TM) X1-85 GPU (ID=0x36334330)
+    Vendor:   Qualcomm
+    VRAM:     7986 MB
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008759 seconds.
+- Loaded All Assemblies, in  1.641 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.393 seconds
+Domain Reload Profiling: 2031ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (8ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1238ms)
+		LoadAssemblies (249ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1232ms)
+			TypeCache.Refresh (1229ms)
+				TypeCache.ScanAssembly (1211ms)
+			BuildScriptInfoCaches (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (329ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (177ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.785 seconds
+Refreshing native plugins compatible for Editor in 1.68 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1497ms
+	BeginReloadAssembly (167ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (525ms)
+		LoadAssemblies (391ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (160ms)
+			BuildScriptInfoCaches (42ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (716ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (592ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (446ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 22 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3764 unused Assets / (0.6 MB). Loaded Objects now: 4287.
+Memory consumption went from 99.0 MB to 98.5 MB.
+Total: 7.029900 ms (FindLiveObjects: 0.398900 ms CreateObjectMapping: 0.361500 ms MarkObjects: 5.251300 ms  DeleteObjects: 1.017300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1858649.426590 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Lightmap-0_comp_light.exr
+  artifactKey: Guid(acd9830124833db4d839d1e97760572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Lightmap-0_comp_light.exr using Guid(acd9830124833db4d839d1e97760572d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c6c79fa5b3e02dd9556d5935552e78a9') in 0.1500951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (7)-reflectionHDR.exr
+  artifactKey: Guid(28bc6ba0dc77ec842aa58083ce75b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (7)-reflectionHDR.exr using Guid(28bc6ba0dc77ec842aa58083ce75b44d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dcc24fccb6b82cfe775a363447a456b5') in 0.1028925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(dce4c741f71d4d247b97524b0298386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/ReflectionProbe-0.exr using Guid(dce4c741f71d4d247b97524b0298386d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f86e27a91edc3fc894aceaf040c7d261') in 0.0342108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (1)-reflectionHDR.exr
+  artifactKey: Guid(0e0af23446456824eadbcdea0008026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (1)-reflectionHDR.exr using Guid(0e0af23446456824eadbcdea0008026e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30bfcaf467fc1e30a6247f5d67058d88') in 0.0367891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (2)-reflectionHDR.exr
+  artifactKey: Guid(0db58dfda25edc24d9342c31a2d1c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (2)-reflectionHDR.exr using Guid(0db58dfda25edc24d9342c31a2d1c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ab99e31fedc246a82d0686fef2e660a') in 0.0355756 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (10)-reflectionHDR.exr
+  artifactKey: Guid(92317741a85a348468745f82c7a1b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (10)-reflectionHDR.exr using Guid(92317741a85a348468745f82c7a1b18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff3ac2c57c11df741f986fd8f9a56e56') in 0.0322233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (9)-reflectionHDR.exr
+  artifactKey: Guid(559295adce920114794ec759022b7d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Demo/Reflection Probe (9)-reflectionHDR.exr using Guid(559295adce920114794ec759022b7d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83843f52c367ec56a3a65bb835290f3c') in 0.0236768 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.178019 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/Lightmap-0_comp_shadowmask.png
+  artifactKey: Guid(eb584417d9ef28f479c64013e870fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/Lightmap-0_comp_shadowmask.png using Guid(eb584417d9ef28f479c64013e870fc86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5b1c57334b3c02ae82bed4740428bc5') in 0.0470335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003047 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/ReflectionProbe-1.exr
+  artifactKey: Guid(9542aa27aad58c6489c7cd47791001e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/ReflectionProbe-1.exr using Guid(9542aa27aad58c6489c7cd47791001e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd231526a4847d5af54c079b458af87ff') in 0.0166013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011289 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/ReflectionProbe-4.exr
+  artifactKey: Guid(132ed269c1c0a5642a9b1192c7fc05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/SCENES/MVillage_WellsProps_Prefabs/ReflectionProbe-4.exr using Guid(132ed269c1c0a5642a9b1192c7fc05e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a664d66a6f53bdda3276a76f0e3de23') in 0.0169327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.468582 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_CoinGroup_Medium_01.prefab
+  artifactKey: Guid(e14cc519ad88445488456ac5f662d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_CoinGroup_Medium_01.prefab using Guid(e14cc519ad88445488456ac5f662d62c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a2aa521055e176e2c834aa27a32961d7') in 0.1901319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 234
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_WellSteps_Corner_Sml_01.prefab
+  artifactKey: Guid(99d10c4180f2f6244b179b866ab5d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_WellSteps_Corner_Sml_01.prefab using Guid(99d10c4180f2f6244b179b866ab5d811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd32afcd965d9a956e1fb2f2176c57db') in 0.0937125 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 557
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_JarCups_Set_01.prefab
+  artifactKey: Guid(3db370a0cf51d3b4486736fb665325a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_JarCups_Set_01.prefab using Guid(3db370a0cf51d3b4486736fb665325a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '234768bdceaadeae0744c6084668d527') in 0.0772936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 162
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_TreeSet_Med_01.prefab
+  artifactKey: Guid(7182cc27017b67446af0cba0ebbc2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_TreeSet_Med_01.prefab using Guid(7182cc27017b67446af0cba0ebbc2b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff55ac5f147876ae9d2ee6b5238840ad') in 0.0844805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 254
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_JarsTrio_01.prefab
+  artifactKey: Guid(0a0570448a80ff041bec1defe1134ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Consolidated/MVillage_JarsTrio_01.prefab using Guid(0a0570448a80ff041bec1defe1134ea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2343e16aefd562857ebb0dd0abef535a') in 0.1019996 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 109
+
+========================================================================
+Received Import Request.
+  Time since last request: 52.194601 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_BucketRope.prefab
+  artifactKey: Guid(f48b480a9308960469f2ee13716617cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_BucketRope.prefab using Guid(f48b480a9308960469f2ee13716617cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3659eaeff75b83173bc877f769f33593') in 0.1521899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 53
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab
+  artifactKey: Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Rope_02.prefab using Guid(d594baa151af66e429698ef698d55980) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4efbc88a74ada1318447eb7f1c0f29fb') in 0.0889432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WheelHandle.prefab
+  artifactKey: Guid(63ac0614c8f05d04fbecf4ed4de62605) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WheelHandle.prefab using Guid(63ac0614c8f05d04fbecf4ed4de62605) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285d0b5a5a559ab0c1d8813e1f0e0312') in 0.0874366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Lrg.prefab
+  artifactKey: Guid(57b04b9918bbf394fb073643f896cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Jar_Lrg.prefab using Guid(57b04b9918bbf394fb073643f896cbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '467666ffeea83b6521407e5cccf12cba') in 0.0870937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 32
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Lrg.prefab
+  artifactKey: Guid(0eb4a0460199e9f408a14f81159c6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Driftwood_Lrg.prefab using Guid(0eb4a0460199e9f408a14f81159c6f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e87c0c76132ffc8186e96773d91d132') in 0.0902099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_B.prefab
+  artifactKey: Guid(f6efc14c9628e7e4792d9500664fe956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_02_Half_B.prefab using Guid(f6efc14c9628e7e4792d9500664fe956) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f6ffcbdeefd1a4dc8083581bcbc55a9') in 0.0845978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_03.prefab
+  artifactKey: Guid(18a5dc24a73cc7e48bf38b7dc7618ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_TreeTrunk_03.prefab using Guid(18a5dc24a73cc7e48bf38b7dc7618ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd0fb61a1d9c24a01dd04ce3743509fa2') in 0.0903258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_DriftWood_Axel.prefab
+  artifactKey: Guid(58ebad6cc409c6c46a3beb64716fdf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_DriftWood_Axel.prefab using Guid(58ebad6cc409c6c46a3beb64716fdf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd60f93827b66c81072346a0ea65da9df') in 0.0945505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 35
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_StoneBlock.prefab
+  artifactKey: Guid(cc76f90c15a6b874ca1d561f2346c97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_StoneBlock.prefab using Guid(cc76f90c15a6b874ca1d561f2346c97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b994744f5d74d82fa9fed866af8c02d8') in 0.1048788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 31
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab
+  artifactKey: Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinSingle.prefab using Guid(5c8d57e6905a9c44097edc7259b071de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5a2af845ab31f7de0a4338ac2c964ab7') in 0.0912381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_01.prefab
+  artifactKey: Guid(221b839587991304b96446bf55ecd8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_WellWall_01.prefab using Guid(221b839587991304b96446bf55ecd8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f446afc9ae06968ebbcf3909daf94d19') in 0.1077083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 29
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Shovel.prefab
+  artifactKey: Guid(e560ca3d06c48524bbbbdd4b834c923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_Shovel.prefab using Guid(e560ca3d06c48524bbbbdd4b834c923e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e88c5ce9c7d2e001d4fd1c18e063cf0a') in 0.1693945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 38
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab
+  artifactKey: Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/PREFABS/Singles/MVillage_CoinGround_Lrg.prefab using Guid(e969b5e3647892a4c80d237fa6eafdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4debc8f797722de8d55305a83fe77b') in 0.0982785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.671129 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_DriftWood_Axel.FBX
+  artifactKey: Guid(8c7dd25282284e74294caea7a4a72a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_DriftWood_Axel.FBX using Guid(8c7dd25282284e74294caea7a4a72a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1c9d3f0778a26a892b262952060e663') in 0.231333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_Rope_02.FBX
+  artifactKey: Guid(95e61b9541aac4148af07751de18bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_Rope_02.FBX using Guid(95e61b9541aac4148af07751de18bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1176f2443b1ab8552c7f516471274cd9') in 0.0709745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_04.FBX
+  artifactKey: Guid(6375ae24a5f26f84fbae03127101bb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_04.FBX using Guid(6375ae24a5f26f84fbae03127101bb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66b5677d34118e0157d8dce37db6237f') in 0.0706656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_02.FBX
+  artifactKey: Guid(318952b0f6a462243a200edfe79f5226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_02.FBX using Guid(318952b0f6a462243a200edfe79f5226) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2d6c53a08626ea58fdd0ff08f6a950fd') in 0.0704971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_SoilBorder_Med.FBX
+  artifactKey: Guid(4fb673a3abf6c5240b6446f0a1b2f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_SoilBorder_Med.FBX using Guid(4fb673a3abf6c5240b6446f0a1b2f918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c81db25148ba9ed4831976b5c0cd5d7a') in 0.0821607 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_Driftwood_Sml.FBX
+  artifactKey: Guid(42b795e3b9714d24783e667fac4747bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_Driftwood_Sml.FBX using Guid(42b795e3b9714d24783e667fac4747bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '120fd37a9ecdbd4b17cb36d00935f0b9') in 0.0874272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_03.FBX
+  artifactKey: Guid(208747c040aac4d448497cdb35501aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_03.FBX using Guid(208747c040aac4d448497cdb35501aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73b3818c6398c2514552daedd7b03f55') in 0.0762312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_PortchRoof_01.FBX
+  artifactKey: Guid(2548fcf78af94fc47bc94c9eaeaee55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_PortchRoof_01.FBX using Guid(2548fcf78af94fc47bc94c9eaeaee55f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdbed115430405c7327de303cef698f0') in 0.0816108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_01.FBX
+  artifactKey: Guid(a936e179e3eab5743a32cc19cbdf96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ASTROFISH_GAMES/MEDIEVAL_SERIES/MEDIEVAL_WELLS_PROPS/MODELS/MVillage_TreeTrunk_01.FBX using Guid(a936e179e3eab5743a32cc19cbdf96f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4841325fe857b1e6aaae17c4a8a5dd1c') in 0.0652829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 21
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.180 seconds
+Refreshing native plugins compatible for Editor in 5.73 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.626 seconds
+Domain Reload Profiling: 2871ms
+	BeginReloadAssembly (445ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (152ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (653ms)
+		LoadAssemblies (596ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (184ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1688ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1207ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (351ms)
+			ProcessInitializeOnLoadAttributes (632ms)
+			ProcessInitializeOnLoadMethodAttributes (201ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (58ms)
+Refreshing native plugins compatible for Editor in 1.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (0.6 MB). Loaded Objects now: 4340.
+Memory consumption went from 100.1 MB to 99.5 MB.
+Total: 9.898800 ms (FindLiveObjects: 0.466600 ms CreateObjectMapping: 0.466900 ms MarkObjects: 7.533100 ms  DeleteObjects: 1.429500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 167.592409 seconds.
+  path: Assets/Scripts/BroomMovement.cs
+  artifactKey: Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BroomMovement.cs using Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '054e6b42721ee9154bf894beb515570f') in 0.0055699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.819 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.672 seconds
+Domain Reload Profiling: 1487ms
+	BeginReloadAssembly (221ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (44ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (399ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (198ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (673ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (544ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (366ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (498.2 KB). Loaded Objects now: 4340.
+Memory consumption went from 100.1 MB to 99.6 MB.
+Total: 6.203300 ms (FindLiveObjects: 0.328100 ms CreateObjectMapping: 0.210400 ms MarkObjects: 4.830100 ms  DeleteObjects: 0.833100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 38.485045 seconds.
+  path: Assets/Scripts/BroomMovement.cs
+  artifactKey: Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BroomMovement.cs using Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51ef460539980ea1cab77cf7f82ff00f') in 0.0022377 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.653 seconds
+Domain Reload Profiling: 1468ms
+	BeginReloadAssembly (252ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (464ms)
+		LoadAssemblies (396ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (654ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (357ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (0.7 MB). Loaded Objects now: 4340.
+Memory consumption went from 100.1 MB to 99.4 MB.
+Total: 5.890700 ms (FindLiveObjects: 0.342000 ms CreateObjectMapping: 0.234800 ms MarkObjects: 4.013300 ms  DeleteObjects: 1.299000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 25.682472 seconds.
+  path: Assets/Scripts/BroomMovement.cs
+  artifactKey: Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BroomMovement.cs using Guid(8f953e26b241e1144baafd4b9d0caa28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b64155c074256735d154a6fd034e3621') in 0.003425 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.650 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.638 seconds
+Domain Reload Profiling: 1287ms
+	BeginReloadAssembly (187ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (303ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (168ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (150ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (639ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (510ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (351ms)
+			ProcessInitializeOnLoadMethodAttributes (28ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (0.6 MB). Loaded Objects now: 4340.
+Memory consumption went from 100.1 MB to 99.5 MB.
+Total: 8.774700 ms (FindLiveObjects: 0.594400 ms CreateObjectMapping: 0.272000 ms MarkObjects: 6.148100 ms  DeleteObjects: 1.758200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.680 seconds
+Refreshing native plugins compatible for Editor in 1.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.639 seconds
+Domain Reload Profiling: 1317ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (406ms)
+		LoadAssemblies (321ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (179ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (161ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (640ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (518ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3762 unused Assets / (0.7 MB). Loaded Objects now: 4340.
+Memory consumption went from 100.1 MB to 99.4 MB.
+Total: 8.821700 ms (FindLiveObjects: 0.490900 ms CreateObjectMapping: 0.270700 ms MarkObjects: 6.692200 ms  DeleteObjects: 1.366400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
